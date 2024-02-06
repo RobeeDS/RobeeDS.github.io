@@ -7,18 +7,20 @@ export default {
   mode: "jit",
   theme: {
     screens: {
-      sm: '480px',
-      md: '768px',
-      lg: '976px',
-      xl: '1440px',
+      xs: "480px",
+      ss: "620px",
+      sm: "768px",
+      md: "1060px",
+      lg: "1200px",
+      xl: "1700px",
     },
     extend: {
       colors: {
-        black: "#1E1E1E",
+        black: "#1E1E1E", 
         white: "#FFFFFF",
         blue: "#5FB2F7",
       },
-      fontFamily: ["Poppins", sans-serif],
+      fontFamily: ["Poppins"],
     },
   },
   plugins: [],
