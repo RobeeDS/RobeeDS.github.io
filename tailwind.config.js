@@ -18,6 +18,7 @@ export default {
       colors: {
         black: "#0A0E16", 
         white: "#FFFFFF",
+        gray: "#B9B9B9",
         dimWhite: "#E1E5E5",
         blue: "#5FB2F7",
       },
