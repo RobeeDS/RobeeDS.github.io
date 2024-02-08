@@ -16,11 +16,14 @@ export default {
     },
     extend: {
       colors: {
-        black: "#1E1E1E", 
+        black: "#0A0E16", 
         white: "#FFFFFF",
+        dimWhite: "#E1E5E5",
         blue: "#5FB2F7",
       },
-      fontFamily: ["Poppins"],
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+      },
     },
   },
   plugins: [],
