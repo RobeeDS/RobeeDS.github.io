@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import { Navbar } from './components'
+import { Navbar, Hero } from './components'
 import styles from './style'
 
 function App() {
@@ -8,11 +7,19 @@ function App() {
 
   return (
     <div className='bg-black w-full overflow-hidden'>
+
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
         </div>
       </div>
+
+      <section id='home' className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+            <Hero />
+        </div>
+      </section>
+
     </div>
 
 
