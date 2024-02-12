@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { brandLogo, close, menuIcon } from '../assets'
+import { brandLogo, close, menu } from '../assets'
 import { navLinks } from '../constants'
 
 const Navbar = () => {
@@ -30,7 +30,7 @@ const Navbar = () => {
       <div className='sm:hidden flex flex-1 justify-end items-center'>
         
         {/* Toggle on Click */}
-        <img src={toggle ? close : menuIcon} 
+        <img src={toggle ? close : menu} 
           alt="menu" 
           className="w-[32px] h-[32px] object-contain" 
           onClick={() => setToggle((prev) => !prev)}/>
