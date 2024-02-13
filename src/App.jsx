@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Navbar, Hero, About } from './components'
+import { Navbar, Hero, About, Portfolio } from './components'
 import styles from './style'
 
 function App() {
@@ -25,6 +25,12 @@ function App() {
       <section id='about' className={`${styles.paddingX} ${styles.paddingY} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <About />
+        </div>
+      </section>
+
+      <section id='portfolio' className={`${styles.paddingX} ${styles.paddingY} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Portfolio />
         </div>
       </section>
 
