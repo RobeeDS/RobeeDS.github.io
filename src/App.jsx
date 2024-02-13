@@ -8,19 +8,21 @@ function App() {
   return (
     <div className='bg-black w-full overflow-hidden'>
 
-      <div className={`${styles.paddingX} ${styles.flexCenter} pb-10`}>
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
         </div>
       </div>
 
-      <section id='home' className={`${styles.paddingX} ${styles.flexCenter} pb-6`}>
-        <div className={`${styles.boxWidth}`}>
-          <Hero />
-        </div>
-      </section>
+      <div className=''>
+        <section id='home' className={`${styles.paddingX} ${styles.flexCenter}`}>
+          <div className={`${styles.boxWidth}`}>
+            <Hero />
+          </div>
+        </section>
+      </div>
 
-      <section id='about' className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <section id='about' className={`${styles.paddingX} ${styles.paddingY} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <About />
         </div>

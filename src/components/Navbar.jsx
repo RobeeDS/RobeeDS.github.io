@@ -27,7 +27,7 @@ const Navbar = () => {
       </ul>
 
       {/* Sidebar */}
-      <div className='sm:hidden flex flex-1 justify-end items-center'>
+      <div className='z-[5] sm:hidden flex flex-1 justify-end items-center'>
         
         {/* Toggle on Click */}
         <img src={toggle ? close : menu} 
