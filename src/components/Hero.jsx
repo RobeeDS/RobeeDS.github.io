@@ -15,7 +15,7 @@ const Hero = () => {
                 <p className='z-[4] text-white xxs:text-[24px] lg:text-[32px]'> Websites for People with Purpose.</p>
 
                 {/* Left Gradient */}
-                <div className='absolute z-[0] w-[10%] h-[40%] -left-16 justify-center flex white__gradient'/>
+                <div className='absolute z-[0] w-[5%] h-[40%] left-0 justify-center flex white__gradient'/>
 
             </div>
             
