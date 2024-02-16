@@ -4,6 +4,7 @@ import menu from "./menu.svg"
 import close from "./close.png"
 import growth from "./growthSymbol.svg"
 import globe from "./worldhands.svg"
+import testImage from "./test.png"
 
 export {
     brandLogo,
@@ -11,5 +12,6 @@ export {
     menu,
     close,
     growth,
-    globe
+    globe,
+    testImage
 };
