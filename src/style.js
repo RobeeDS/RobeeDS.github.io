@@ -13,8 +13,6 @@ const styles = {
 
     marginX: "sm:mx-16 mx-6",
     marginY: "sm:my-16 my-6",
-
-    button: "bg-blue text-black px-4 p-2.5 rounded-full ",
 }
 
 export default styles;
