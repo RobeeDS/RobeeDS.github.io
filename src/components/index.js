@@ -7,5 +7,5 @@ export {
     Navbar,
     Hero,
     About,
-    Portfolio
+    Portfolio,
 };
