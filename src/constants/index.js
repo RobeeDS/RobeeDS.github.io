@@ -1,5 +1,5 @@
 //Import assets here
-import { testImage } from "../assets";
+import { testImage, htmlLogo, cssLogo, jsLogo, reactLogo } from "../assets";
 
 export const navLinks = [
     {
@@ -44,5 +44,24 @@ export const projectInfo = [
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit pellentesque habitant morbi tristique. Facilisis volutpat est velit egestas dui id ornare.",
         img: testImage,
         link: "https://robeeds.tech#test2",
+    }
+];
+
+export const techInfo = [
+    {
+        lang: "HTML",
+        img: htmlLogo,
+    },
+    {
+        lang: "CSS",
+        img: cssLogo,
+    },
+    {
+        lang: "JavaScript",
+        img: jsLogo,
+    },
+    {
+        lang: "React",
+        img: reactLogo,
     }
 ];

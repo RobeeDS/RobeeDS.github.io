@@ -1,5 +1,4 @@
 import React from 'react'
-import { projectInfo } from '../constants'
 
 const ProjectCard = ({ title, num, langs, content, img, link }) => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
-import styles from '../style'
-import { projectInfo } from '../constants'
+import { projectInfo, techInfo } from '../constants'
 import ProjectCard from './ProjectCard'
+import Technologies from './Technologies'
 
 const Portfolio = () => {
   return (
@@ -37,8 +37,16 @@ const Portfolio = () => {
                 <div className='absolute z-[1] w-[5%] h-[40%] -left-0 -bottom-[250%] justify-center flex green__gradient'/>
                 
             </div>
+
         </div>
         
+        {/* Technologies */}
+        <div className='w-full text-dimWhite font-poppins font-semibold tracking-wide text-center xxs:text-[40px] lg:text-[64px]'>TECHNOLOGIES</div>
+        <div className='grid md:grid-cols-4'>
+            {techInfo.map((index) => 
+                <Technologies key={index.id} {...index} />
+            )}
+        </div>
 
     </div>
   )

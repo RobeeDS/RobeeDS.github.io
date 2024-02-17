@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Navbar, Hero, About, Portfolio } from './components'
+import { Navbar, Hero, About, Portfolio, Technologies } from './components'
 import styles from './style'
 
 function App() {
@@ -31,6 +31,7 @@ function App() {
       <section id='portfolio' className={`${styles.paddingX} ${styles.paddingY} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Portfolio />
+          <Technologies />
         </div>
       </section>
 
