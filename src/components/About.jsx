@@ -6,7 +6,7 @@ const About = () => {
 
         <div className='relative md:w-full lg:mr-10'>
           <container className='flex flex-1'>
-              <div className='absolute w-[50%] h-[50%] flex top-[18%] left-[25%] white__gradient'></div>
+              <div className='absolute w-[50%] h-[50%] flex top-[18%] left-[19%] white__gradient'></div>
 
               {/* Replace Globe with Portrait */}
               <img src={globe} alt='globe' className={`z-[5] md:w-full lg:mr-10`}/>

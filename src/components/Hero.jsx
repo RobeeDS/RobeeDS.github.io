@@ -25,8 +25,8 @@ const Hero = () => {
 
                 {/* Hand Gradients */}
                 <div className='absolute z-[1] w-[30%] h-[40%] top-24 left-32 green__gradient' />
-                <div className='absolute z-[1] w-[30%] h-[40%] top-28 right-36 white__gradient' />
-                <div className='absolute z-[0] w-[60%] h-[80%] left-32 bottom-36 blue__gradient'/>
+                <div className='absolute z-[0] w-[30%] h-[40%] top-28 right-54 white__gradient' />
+                <div className='absolute z-[1] w-[60%] h-[80%] left-32 bottom-36 blue__gradient'/>
 
             </div>
 
