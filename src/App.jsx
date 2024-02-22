@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Navbar, Hero, About, Portfolio, Technologies } from './components'
+import { Navbar, Hero, About, Portfolio, Technologies, Contact } from './components'
 import styles from './style'
 
 function App() {
@@ -33,6 +33,10 @@ function App() {
           <Portfolio />
           <Technologies />
         </div>
+      </section>
+
+      <section id='contact' className={`${styles.paddingX} ${styles.paddingY} ${styles.flexCenter}`}>
+          <Contact />
       </section>
 
     </div>
