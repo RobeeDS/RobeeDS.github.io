@@ -2,6 +2,7 @@ import React from 'react'
 import { projectInfo, techInfo } from '../constants'
 import ProjectCard from './ProjectCard'
 import Technologies from './Technologies'
+import styles from "../style"
 
 const Portfolio = () => {
   return (
@@ -41,11 +42,13 @@ const Portfolio = () => {
         </div>
         
         {/* Technologies */}
-        <div className='w-full text-dimWhite font-poppins font-semibold tracking-wide text-center xxs:text-[40px] lg:text-[64px]'>TECHNOLOGIES</div>
-        <div className='grid md:grid-cols-4'>
-            {techInfo.map((index) => 
-                <Technologies key={index.id} {...index} />
-            )}
+        <div className={`${styles.paddingY}`}>
+            <div className='w-full text-dimWhite font-poppins font-semibold tracking-wide text-center xxs:text-[36px] lg:text-[54px]'>TECHNOLOGIES</div>
+            <div className='flex xxs:flex-wrap justify-evenly'>
+                {techInfo.map((index) => 
+                    <Technologies key={index.id} {...index} />
+                )}
+            </div>
         </div>
 
     </div>
