@@ -27,7 +27,7 @@ export const projectInfo = [
         langs: ["html | ", "bootstrapcss | ", "js"],
         content: "My first ePortfolio. Made from scratch using the BootstrapCSS framework. ",
         img: firstPortfolio,
-        link: "https://robeeds.tech",
+        link: "https://github.com/robeeds/old_eportfolio",
     },
     {
         title: "HooBank",
@@ -43,7 +43,7 @@ export const projectInfo = [
         langs: ["html | ", "css"],
         content: "My very first ECS Front-End Web Development Project in 2020-2021. Collaboratively built, with @DVLS through HTML and CSS using Atom. Not very functional, or responsive...",
         img: justplayit,
-        link: "https://robeeds.tech/JustPlayIt",
+        link: "hhttps://github.com/robeeds/JustPlayIt",
     }
 ];
 
