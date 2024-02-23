@@ -4,6 +4,7 @@ import About from "./About";
 import Portfolio from "./Portfolio";
 import Technologies from "./Technologies";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 export {
     Navbar,
@@ -11,5 +12,6 @@ export {
     About,
     Portfolio,
     Technologies,
-    Contact
+    Contact,
+    Footer
 };
