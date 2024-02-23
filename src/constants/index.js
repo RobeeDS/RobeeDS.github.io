@@ -63,5 +63,5 @@ export const techInfo = [
     {
         lang: "React",
         img: reactLogo,
-    }
+    },
 ];
