@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Navbar, Hero, About, Portfolio, Technologies, Contact } from './components'
+import { Navbar, Hero, About, Portfolio, Technologies, Contact, Footer } from './components'
 import styles from './style'
 
 function App() {
@@ -8,13 +8,13 @@ function App() {
   return (
     <div className='bg-black w-full overflow-hidden'>
 
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <section id='nav' className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
         </div>
-      </div>
+      </section>
 
-      <section id='home' className={`${styles.paddingX} ${styles.paddingY} ${styles.flexCenter}`}>
+      <section id='home' className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
         </div>
@@ -43,6 +43,13 @@ function App() {
           <Contact />
         </div>
       </section>
+
+      <section className={`${styles.paddingX} ${styles.paddingY} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Footer />
+        </div>
+      </section>
+      
 
     </div>
 
