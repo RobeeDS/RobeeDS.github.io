@@ -1,12 +1,16 @@
 import React from 'react'
+import TechnologyCard from './TechnologyCard'
+import { techInfo } from '../constants'
 
-const Technologies = ({ lang, img }) => {
+const Technologies = () => {
   return (
-    <div>
+    <div className='w-full'>
         {/* Technologies */}
-        <div className='flex flex-1 items-center p-6'>
-            <p className='font-poppins font-semibold text-dimWhite tracking-wide mr-2 xxs:text-[30px] lg:text-[32px]'>{lang}</p>
-            <img src={img} alt={lang} className='xxs:h-[30px] md:h-[60px] lg:h-[80px]'/>
+        <div className='w-full text-dimWhite font-poppins font-semibold tracking-wide text-center xxs:text-[36px] lg:text-[54px]'>TECHNOLOGIES</div>
+        <div className='flex xxs:flex-wrap justify-evenly'>
+            {techInfo.map((index) => 
+                <TechnologyCard key={index.id} {...index} />
+            )}
         </div>
     </div>
   )
