@@ -1,5 +1,5 @@
 //Import assets here
-import { testImage, htmlLogo, cssLogo, jsLogo, reactLogo } from "../assets";
+import { testImage, htmlLogo, cssLogo, jsLogo, reactLogo, justplayit, hoobank, firstPortfolio } from "../assets";
 
 export const navLinks = [
     {
@@ -22,28 +22,28 @@ export const navLinks = [
 
 export const projectInfo = [
     {
-        title: "Project",
+        title: "First ePortfolio",
         num: "1",
-        langs: ["html ", "css"],
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit pellentesque habitant morbi tristique. Facilisis volutpat est velit egestas dui id ornare.",
-        img: testImage,
-        link: "https://robeeds.tech#test1",
+        langs: ["html | ", "bootstrapcss | ", "js"],
+        content: "My first ePortfolio. Made from scratch using the BootstrapCSS framework. ",
+        img: firstPortfolio,
+        link: "https://robeeds.tech",
     },
     {
-        title: "Project",
+        title: "HooBank",
         num: "2",
-        langs: ["html ", "css"],
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit pellentesque habitant morbi tristique. Facilisis volutpat est velit egestas dui id ornare.",
-        img: testImage,
-        link: "https://robeeds.tech#test3",
+        langs: ["html |", " tailwindcss ", "| react.js"],
+        content: "A project clone of @adrianhajdin's project_hoobank on GitHub. Made from scratch and deployed on Vercel. Responsive to all screen sizes.",
+        img: hoobank,
+        link: "https://bank-modern-app-robeeds-projects.vercel.app/",
     },
     {
-        title: "Project",
+        title: "Just Play It!",
         num: "3",
-        langs: "Languages",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit pellentesque habitant morbi tristique. Facilisis volutpat est velit egestas dui id ornare.",
-        img: testImage,
-        link: "https://robeeds.tech#test2",
+        langs: ["html | ", "css"],
+        content: "My very first ECS Front-End Web Development Project in 2020-2021. Collaboratively built, with @DVLS through HTML and CSS using Atom. Not very functional, or responsive...",
+        img: justplayit,
+        link: "https://robeeds.tech/JustPlayIt",
     }
 ];
 
