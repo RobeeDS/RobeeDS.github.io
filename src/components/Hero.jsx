@@ -4,7 +4,7 @@ import { growth } from '../assets'
 
 const Hero = () => {
   return (
-    <div className={`font-poppins font-medium xxs:text-[46px] lg:text-[64px] xl:text-[80px] flex flex-1`}>
+    <div className={`font-poppins font-medium xxs:text-[46px] lg:text-[64px] xl:text-[80px] flex flex-1 `}>
 
         <div className={`flex flex-1 md:flex-row flex-col w-full`}>
 
