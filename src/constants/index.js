@@ -1,5 +1,5 @@
 //Import assets here
-import { testImage, htmlLogo, cssLogo, jsLogo, reactLogo, justplayit, hoobank, firstPortfolio } from "../assets";
+import { testImage, htmlLogo, cssLogo, jsLogo, reactLogo, justplayit, hoobank, firstPortfolio, tailwindLogo, bootstrapLogo } from "../assets";
 
 export const navLinks = [
     {
@@ -64,4 +64,12 @@ export const techInfo = [
         lang: "React",
         img: reactLogo,
     },
+    {
+        lang: "TailwindCSS",
+        img: tailwindLogo,
+    },
+    {
+        lang: "BootstrapCSS",
+        img: bootstrapLogo,
+    }
 ];

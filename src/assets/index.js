@@ -6,6 +6,8 @@ import globe from "./handportrait.png"
 import testImage from "./test.png"
 import htmlLogo from "./html.svg"
 import cssLogo from "./css.svg"
+import bootstrapLogo from "./bootstrapcss.svg"
+import tailwindLogo from "./tailwindcss.svg"
 import jsLogo from "./javascript.svg"
 import reactLogo from "./react.svg"
 import linkedinLogo from "./linkedin.svg"
@@ -24,6 +26,8 @@ export {
     htmlLogo,
     cssLogo,
     jsLogo,
+    bootstrapLogo,
+    tailwindLogo,
     reactLogo,
     linkedinLogo,
     githubLogo,
