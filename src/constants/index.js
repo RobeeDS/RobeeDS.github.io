@@ -65,11 +65,11 @@ export const techInfo = [
         img: reactLogo,
     },
     {
-        lang: "TailwindCSS",
+        lang: "Tailwind",
         img: tailwindLogo,
     },
     {
-        lang: "BootstrapCSS",
+        lang: "Bootstrap",
         img: bootstrapLogo,
     }
 ];
