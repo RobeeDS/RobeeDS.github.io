@@ -1,6 +1,6 @@
 # RobeeDS - Project ePortfolio
 
-This is a landing page for my personal ePortfolio. Built with React and Tailwind. 
+This is a landing page for my personal ePortfolio. Built with React and Tailwind, deployed on Vercel.
 
 ## Table of Contents
 - [Overview](#overview)
