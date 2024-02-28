@@ -24,7 +24,7 @@ export const projectInfo = [
     {
         title: "First ePortfolio",
         num: "1",
-        langs: ["html | ", "bootstrapcss | ", "js"],
+        langs: ["HTML", "BootstrapCSS", "JavaScript"],
         content: "My first ePortfolio. Made from scratch using the BootstrapCSS framework. ",
         img: firstPortfolio,
         link: "https://github.com/robeeds/old_eportfolio",
@@ -32,7 +32,7 @@ export const projectInfo = [
     {
         title: "HooBank",
         num: "2",
-        langs: ["html |", " tailwindcss ", "| react.js"],
+        langs: ["HTML", "TailwindCSS", "React.js"],
         content: "A project clone of @adrianhajdin's project_hoobank on GitHub. Made from scratch and deployed on Vercel. Responsive to all screen sizes.",
         img: hoobank,
         link: "https://bank-modern-app-robeeds-projects.vercel.app/",
@@ -40,7 +40,7 @@ export const projectInfo = [
     {
         title: "Just Play It!",
         num: "3",
-        langs: ["html | ", "css"],
+        langs: ["HTML", "CSS"],
         content: "My very first ECS Front-End Web Development Project in 2020-2021. Collaboratively built, with @DVLS through HTML and CSS using Atom. Not very functional, or responsive...",
         img: justplayit,
         link: "hhttps://github.com/robeeds/JustPlayIt",

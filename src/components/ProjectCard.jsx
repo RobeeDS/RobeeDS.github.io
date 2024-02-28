@@ -10,7 +10,7 @@ const ProjectCard = ({ title, num, langs, content, img, link }) => {
         {/* Project Description */}
         <div className='z-[5] font-poppins m-6 justify-center'>
             <p className='font-medium text-white xxs:text-3xl md:text-4xl'>{title}</p>
-            <p className='text-gray text-[18px]'>{langs}</p>
+            <p className='text-gray text-[18px]'>{langs.join(" | ")}</p>
             <p className='text-gray text-[14px]'>{content}</p>
 
             {/* Button */}
