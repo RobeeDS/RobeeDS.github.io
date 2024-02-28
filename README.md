@@ -5,6 +5,7 @@ This is a landing page for my personal ePortfolio. Built with React and Tailwind
 ## Table of Contents
 - [Overview](#overview)
 - [Requirements](#requirements)
+- [Solution](#solution)
 - [Preview](#project-preview)
 - [My Process](#my-process)
 - [Author](#author)
@@ -18,6 +19,9 @@ This is a landing page for my personal ePortfolio. Built with React and Tailwind
 3. Import data and assets using a JS file
 4. Create reusable styling components with Tailwind
 5. Deploy site using Vercel
+
+### Solution
+- Solution Repo - [Github](https://github.com/robeeds/robeeds.tech)
 
 ## My Process
 
