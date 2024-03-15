@@ -1,5 +1,5 @@
 //Import assets here
-import { testImage, htmlLogo, cssLogo, jsLogo, reactLogo, justplayit, hoobank, firstPortfolio, tailwindLogo, bootstrapLogo } from "../assets";
+import { htmlLogo, cssLogo, jsLogo, reactLogo, hoobank, firstPortfolio, tailwindLogo, bootstrapLogo } from "../assets";
 
 export const navLinks = [
     {
@@ -37,14 +37,6 @@ export const projectInfo = [
         img: hoobank,
         link: "https://bank-modern-app-robeeds-projects.vercel.app/",
     },
-    {
-        title: "Just Play It!",
-        num: "3",
-        langs: ["HTML", "CSS"],
-        content: "My very first ECS Front-End Web Development Project in 2020-2021. Collaboratively built, with @DVLS through HTML and CSS using Atom. Not very functional, or responsive...",
-        img: justplayit,
-        link: "hhttps://github.com/robeeds/JustPlayIt",
-    }
 ];
 
 export const techInfo = [
