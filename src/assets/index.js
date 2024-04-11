@@ -13,6 +13,7 @@ import linkedinLogo from "./linkedin.svg"
 import githubLogo from "./github.png"
 import hoobank from "./hoobank.png"
 import firstPortfolio from "./firstPortfolio.png"
+import botanicbento from "./botanicbento.png"
 
 export {
     brandLogo,
@@ -29,5 +30,6 @@ export {
     linkedinLogo,
     githubLogo,
     hoobank,
-    firstPortfolio
+    firstPortfolio,
+    botanicbento
 };

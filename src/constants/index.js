@@ -1,5 +1,5 @@
 //Import assets here
-import { htmlLogo, cssLogo, jsLogo, reactLogo, hoobank, firstPortfolio, tailwindLogo, bootstrapLogo } from "../assets";
+import { htmlLogo, cssLogo, jsLogo, reactLogo, hoobank, firstPortfolio, botanicbento, tailwindLogo, bootstrapLogo } from "../assets";
 
 export const navLinks = [
     {
@@ -36,6 +36,14 @@ export const projectInfo = [
         content: "A project clone of @adrianhajdin's project_hoobank on GitHub. Made from scratch and deployed on Vercel. Responsive to all screen sizes.",
         img: hoobank,
         link: "https://bank-modern-app-robeeds-projects.vercel.app/",
+    },
+    {
+        title: "Botanic Bento",
+        num: "3",
+        langs: ["HTML", "TailwindCSS", "React.js"],
+        content: "React-based site with Tailwind CSS for a seamless, stylish exploration of nature-inspired decor. Deployed on Vercel and responsive to all screen sizes.",
+        img: botanicbento,
+        link: "https://botanic-bento.vercel.app",
     },
 ];
 
