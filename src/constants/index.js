@@ -22,12 +22,12 @@ export const navLinks = [
 
 export const projectInfo = [
     {
-        title: "First ePortfolio",
+        title: "Botanic Bento",
         num: "1",
-        langs: ["HTML", "BootstrapCSS", "JavaScript"],
-        content: "My first ePortfolio. Made from scratch using the BootstrapCSS framework. ",
-        img: firstPortfolio,
-        link: "https://github.com/robeeds/old_eportfolio",
+        langs: ["HTML", "TailwindCSS", "React.js"],
+        content: "React-based site with Tailwind CSS for a seamless, stylish exploration of nature-inspired decor. Deployed on Vercel and responsive to all screen sizes.",
+        img: botanicbento,
+        link: "https://botanic-bento.vercel.app",
     },
     {
         title: "HooBank",
@@ -38,12 +38,12 @@ export const projectInfo = [
         link: "https://bank-modern-app-robeeds-projects.vercel.app/",
     },
     {
-        title: "Botanic Bento",
+        title: "First ePortfolio",
         num: "3",
-        langs: ["HTML", "TailwindCSS", "React.js"],
-        content: "React-based site with Tailwind CSS for a seamless, stylish exploration of nature-inspired decor. Deployed on Vercel and responsive to all screen sizes.",
-        img: botanicbento,
-        link: "https://botanic-bento.vercel.app",
+        langs: ["HTML", "BootstrapCSS", "JavaScript"],
+        content: "My first ePortfolio. Made from scratch using the BootstrapCSS framework. ",
+        img: firstPortfolio,
+        link: "https://github.com/robeeds/old_eportfolio",
     },
 ];
 
