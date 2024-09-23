@@ -16,7 +16,7 @@ const About = () => {
         {/* Description */}
         <div className={`z-[5] w-full self-center font-poppins text-white md:max-w-[33vw] md:ml-10 md:p-10 md:border-l-2`}>
             <p className='font-semibold text-[50px] xxs:text-[32px] lg:text-[54px]'>I'm Robee D.</p>
-            <p className='font-normal xs:text-[16px] md:text-[20px] lg:text-[24px]'>I’m Robee, a freelance college student with a passion for UI/UX development. Specializing in crafting captivating digital  experiences, I’m your go-to person for all things creative and tech-savvy.</p>
+            <p className='font-normal xs:text-[16px] md:text-[20px] lg:text-[24px]'>I’m Robee, a college student with a passion for web development. Specializing in crafting captivating digital  experiences, I’m your go-to person for all things creative and tech-savvy.</p>
         </div>
     </div>
     
