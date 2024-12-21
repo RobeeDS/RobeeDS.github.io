@@ -38,7 +38,7 @@ This is a landing page for my personal ePortfolio. Built with React and Tailwind
 
 ## Author
 
-- Website - [Robee D.](https://www.robeeds.tech)
+- Website - [Robee D.](https://www.robeeds.dev)
 
 ## Credits
 
